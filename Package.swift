@@ -1,9 +1,10 @@
-// swift-tools-version:4.0
+// swift-tools-version:5.9
 import PackageDescription
 
 let package = Package(
     name: "dark-mode-notify",
-    dependencies: [
+    platforms: [
+        .macOS(.v10_14)
     ],
     targets: [
     	.target(
